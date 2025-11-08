@@ -1,36 +1,4 @@
 
-// import React, { useState } from 'react';
-// import './MessageInput.css';
-// import '../App.css';
-
-// const MessageInput = ({ onSend, loading }) => {
-//   const [input, setInput] = useState('');
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     const trimmed = input.trim();
-//     if (!trimmed) return;
-//     onSend(trimmed);
-//     setInput('');
-//   };
-
-//   return (
-//     <form className="message-input" onSubmit={handleSubmit}>
-//       <input
-//         type="text"
-//         value={input}
-//         onChange={(e) => setInput(e.target.value)}
-//         placeholder={loading ? "Waiting for response..." : "Type your message..."}
-//         disabled={loading}
-//       />
-//       <button type="submit" disabled={loading || !input.trim()}>
-//         {loading ? '...' : 'Send'}
-//       </button>
-//     </form>
-//   );
-// };
-
-// export default MessageInput;
 
 import React, { useState, useRef } from 'react';
 import './MessageInput.css';

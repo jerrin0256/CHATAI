@@ -15,14 +15,18 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: "https://chatai-jsx1.vercel.app",
     methods: ['GET', 'POST']
   }
 });
 
 connectDB();
 
-app.use(cors());
+app.use(cors({
+  origin: ["https://chatai-jsx1.vercel.app"],
+  methods: ['GET', 'POST'],
+  credentials: true
+}));
 app.use(express.json());
 app.use('/api/messages', messageRoutes);
 
