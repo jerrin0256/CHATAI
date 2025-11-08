@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import MessageInput from './MessageInput'; // adjust the path as needed
+import MessageInput from './MessageInput'; 
 import './ChatWindow.css';
 import '../App.css';
 
@@ -8,7 +8,7 @@ import '../App.css';
 
 const ChatWindow = () => {
   const [messages, setMessages] = useState([]);
-  const [isTyping, setIsTyping] = useState(false); // ✅ define isTyping
+  const [isTyping, setIsTyping] = useState(false); 
 
   const handleSend = async (message) => {
     setMessages(prev => [...prev, { role: 'user', content: message }]);
@@ -46,7 +46,7 @@ const ChatWindow = () => {
           </div>
         )}
       </div>
-      <MessageInput onSend={handleSend} loading={isTyping} /> {/* ✅ pass loading prop */}
+      <MessageInput onSend={handleSend} loading={isTyping} /> 
     </div>
   );
 };
