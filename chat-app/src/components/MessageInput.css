@@ -1,0 +1,115 @@
+/* .message-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .message-input button {
+    padding: 10px 20px;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+   */
+   /* .message-input {
+    display: flex;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .message-input input:disabled {
+    background: #f5f5f5;
+  }
+  
+  .message-input button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .message-input button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+   */
+
+
+   .message-input {
+    display: flex;
+    padding: 0.75rem;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .message-input button {
+    margin-left: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #10a37f;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .message-input button:hover {
+    background-color: #0e7f63;
+  }
+  .mic-button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    margin-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .mic-button:hover {
+    background-color: #005fa3;
+  }
+  
+  .mic-listening {
+    background-color: red !important;
+  }
+  
+   
